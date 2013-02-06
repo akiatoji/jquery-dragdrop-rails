@@ -1,6 +1,9 @@
 # Jquery::Dragdrop::Rails
 
-This is a simple integration for ThreeDubMedia's jquery.event.drag and jquery.event.drop plugins for Rails 3.x.
+This is a simple integration of ThreeDubMedia's jquery.event.drag and jquery.event.drop plugins for Rails 3.x.
+
+This gem just integrates the plugins as assets.  
+For more details on ThreeDubMedia's plugins, refer to http://threedubmedia.com
 
 
 ## Installation
@@ -9,9 +12,11 @@ Add this line to your application's Gemfile:
 
     gem 'jquery-dragdrop-rails'
 
+
 And then execute:
 
     $ bundle
+
 
 Or install it yourself as:
 
@@ -20,6 +25,11 @@ Or install it yourself as:
 
 ## Usage
 
+In applicaion.js
+
+```
+//= require jquery-dragdrop-rails
+```
 
 
 ## Contributing
