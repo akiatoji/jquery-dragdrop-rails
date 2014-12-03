@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Wraps ThreeDubMedia's jquery.event.drag and jquery.event.drop plugins for Rails}
   gem.homepage      = "http://www.github.com/akiatoji/jquery-dragdrop-rails"
 
-  gem.add_dependency  "railties", "~> 3.0"
+  gem.add_dependency  "railties"
   gem.add_dependency  "jquery-rails"
 
   gem.files         = `git ls-files`.split($/)
